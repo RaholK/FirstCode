@@ -1,0 +1,15 @@
+package erstenprojekte;
+
+import javax.swing.JOptionPane;
+
+public class if_else_videoaufgabe5 {
+	public static void main(String[] args) {
+		int x = 17;
+		if (x>=18) {
+			JOptionPane.showMessageDialog(null, "du bist volljährig");
+		}
+		else {
+			JOptionPane.showMessageDialog(null, "du bist minderjährig");
+		}
+	}
+}
