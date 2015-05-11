@@ -1,0 +1,15 @@
+package erstenprojekte;
+
+import java.util.Scanner;
+
+public class arrays8 {
+	public static void main(String[] args) {
+		int[] x= new int[3];
+		
+		Scanner s = new Scanner(System.in);
+		x[0] = s.nextInt();
+		x[1] = s.nextInt();
+		System.out.println(x[0]+x[1]);
+		}
+}
+
