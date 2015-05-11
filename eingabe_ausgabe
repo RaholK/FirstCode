@@ -1,0 +1,13 @@
+package erstenprojekte;
+
+import javax.swing.*;
+
+public class eingabe_ausgabe {
+	public static void main(String[] args) {
+		
+	
+		    String s = javax.swing.JOptionPane.showInputDialog( "Wie lautet ihr Name?" );	//Eingabedialog
+		    System.out.println( "Aha, du heißt " + s );										//Ausgabe in der Eclipse-Console						
+		    JOptionPane.showMessageDialog( null, "Hallo "+s+"\nWie gehts dir?");			 //Ausgabedialog
+	}
+}
