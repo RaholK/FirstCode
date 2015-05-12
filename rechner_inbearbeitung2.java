@@ -4,9 +4,9 @@ import javax.swing.*;
 
 public class rechner {
 	public static void main(String[] args) {
-int x;
-x = 1;
-//	while (x==1) {
+		int x;
+		x = 1;
+		//while (x==1) {
 			 JOptionPane.showMessageDialog(null, "Hallo, das ist der Rechner" );	//Eingabedialog
 			 String erstezahl = JOptionPane.showInputDialog(null,"Geben Sie eine Zahl ein");
 			 String operator = JOptionPane.showInputDialog(null,"Geben Sie einen Operator einen Operator ein: *, /, +,-");
