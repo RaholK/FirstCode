@@ -1,0 +1,25 @@
+
+
+import javax.swing.*;
+
+public class rechner {
+	public static void main(String[] args) {
+		
+	
+		  JOptionPane.showMessageDialog(null, "Hallo, das ist der Rechner" );	//Eingabedialog
+		 String erstezahl = JOptionPane.showInputDialog(null,"Geben Sie eine Zahl ein");
+		 String operator = JOptionPane.showInputDialog(null,"Geben Sie einen Operator einen Operator ein: *, /, +,-");
+		 String zweitezahl =  JOptionPane.showInputDialog(null,"Geben Sie die zweite Zahl ein");
+	
+		 Integer i1 = new Integer(erstezahl);
+		 Integer i2 = new Integer(zweitezahl);
+		 
+		 
+		 if (operator.equals("*")) {
+			int loesungmal = i1 * i2; 
+			JOptionPane.showMessageDialog(null,loesungmal);
+		 }
+
+		 
+	}
+}
