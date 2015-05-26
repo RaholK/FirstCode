@@ -1,0 +1,23 @@
+package erstenprojekte;
+//Hausaufgabe 10 und 11 
+public class methoden_10_11 {
+	public static void main (String args[]) {
+		int z = 4;
+		int y = 3;
+		SchreibeBrot(z,y);
+	}
+private static void SchreibeBrot(int z, int y) {
+		System.out.println(z+y);
+		int x;
+		x = 15;
+		System.out.println("Brot"+x);
+		Schreibepfff();
+}
+
+private static void Schreibepfff() {
+		int x;
+		x = 3;
+		System.out.println("Brot"+x);
+}
+
+}
